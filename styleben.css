@@ -1,0 +1,38 @@
+.grupo1, .grupo2 {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.bloqueben {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* establece el ancho de cada bloque em 33% deñ amcho del contenedor menos el margen de la derecha e izquierda de cada bloque que seria 20 */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.bloqueben img {
+    margin-left: auto;
+    max-width: 40%;
+    height: auto;
+}
+
+.bloqueben .contenido {
+    margin-right: auto;
+    width: 50%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.bloqueben h3 {
+    margin-top: 0;
+}
+
+.bloqueben p {
+    margin-bottom: 0;
+}

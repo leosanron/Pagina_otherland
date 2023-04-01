@@ -1,12 +1,18 @@
 body {
 	font-family: Arial, sans-serif;
+	background-image: url(Dekstop.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 header {
-	background-color: #333;
 	color: #fff;
-	padding: 1px 0;
+	padding: 0px 0;
+	margin-bottom: 8%;
+	/* background-color: #850e7b0c; */
 }
+
+
 
 nav ul img {
 	width: 10%;
@@ -23,6 +29,7 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	margin-right: 20px;
+	margin-bottom: 8%;
 }
 
 nav ul li:last-child {
@@ -82,7 +89,7 @@ form input[type="submit"] {
 }
 
 footer {
-	background-color: #333;
+
 	color: #fff;
 	padding: 20px;
 	text-align: center;
@@ -101,7 +108,11 @@ h1 {
 	color: #faf7fa;
 	font-family: sans-serif;
 	margin-top: 1%;
-	
+}
+
+h1 span {
+	color: #cc2ea5;
+
 }
 
 
@@ -153,6 +164,9 @@ header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 55%;
+	margin: 0 auto;
+	margin-bottom: 8%;
 }
   
 #about-us img {
@@ -161,42 +175,132 @@ header {
 
 #about-us h2 {
     font-size: 2.5rem;
-    color: #333;
+    color: #fcf5f5;
+	font-weight: bold;
 }
 
 #about-us p {
     font-size: 2rem;
-    color:  #333;
+    color:  #fcf5f5;
+	text-align: justify;
+}
+
+#about-us p span {
+    font-size: 2rem;
+    color:  #cc2ea5;
 }
 
 
 
 
 
-
-
-
+/* CARRUSEL 
+CARRUSEL */
 
 #Carrusel {
-	background-color: #333;
+	background-image: url(Dekstop\ inver.png);
+	background-size: cover;
+	margin-bottom: 8%;
 }
 
 #Carrusel h2 {
+	margin-top: 4%;
+	margin-bottom: 4%;
 	text-align: center;
 	font-size: 3rem;
 	color: #faf7fa;
     font-size: 2.5rem;
 }
 
+#Carrusel .card{
+    background-color: rgba(156, 22, 197, 0.048);
+}
+
+#Carrusel .card-body{
+	border-left: 3px solid  #cc2ea5;
+    border-image: linear-gradient(to bottom, transparent 10%,  #cc2ea5 10%,  #cc2ea5 90%,transparent 90%); /* Gradiente para el borde */
+    border-image-slice: 1; /* Indica que la imagen del borde debe ser cortada en una sola rebanada */
+
+	
+}
+
+#Carrusel .container{
+    margin-bottom: 8%;
+}
+.card h5{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.card h6{
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+.card h6 span{
+    color:  rgb(218, 52, 182);
+    font-size: 1.5rem;
+
+}
+
+.card-body p{
+    color:  aliceblue;
+    font-size: 1rem;
+
+}
 
 
 
 
 
-
+/* BENEFICIOS 
+BENEFICIOS */
 #Beneficios h2 {
 	text-align: center;
-	font-size: 3rem;
-	color:  #333;
+	color:  #f5f0f0;
     font-size: 2.5rem;
+}
+
+.grupo1, .grupo2 {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.bloqueben {
+    /* border: 2px solid #850e7b; */
+    padding: 10px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* establece el ancho de cada bloque em 33% deñ amcho del contenedor menos el margen de la derecha e izquierda de cada bloque que seria 20 */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+	border-radius: 10px;
+}
+
+.bloqueben img {
+    margin-left: auto;
+    max-width: 40%;
+    height: auto;
+}
+
+.bloqueben .contenido {
+    margin-right: auto;
+    width: 50%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.bloqueben h3 {
+    margin-top: 0;
+	color:  #f3eeee;
+	font-size: 1rem;
+}
+
+.bloqueben p {
+    margin-bottom: 0;
+	color:  #f3eeee;
+	font-size: 1rem;
 }

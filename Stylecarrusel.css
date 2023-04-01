@@ -1,0 +1,36 @@
+body {
+	font-family: Arial, sans-serif;
+	background-image: url(Dekstop.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.card{
+    background-color: rgba(47, 2, 61, 0);
+}
+
+.card h5{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.card h6{
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+.card h6 span{
+    color:  rgb(177, 41, 147);
+    font-size: 1.5rem;
+
+
+}
+
+.card-body p{
+    color:  aliceblue;
+    font-size: 1rem;
+}
+
+.card-body {
+    border-left: 2px solid  #cc2ea5;
+}
