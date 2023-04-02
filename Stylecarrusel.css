@@ -5,6 +5,17 @@ body {
 	background-size: cover;
 }
 
+#Carrusel .card-body {
+    height: 200px; /* Altura fija para todas las tarjetas */
+    overflow: hidden; /* Oculta el contenido que exceda la altura fijada */
+  }
+  
+  #Carrusel .card-body p {
+    font-size: 16px; /* Tamaño de fuente para el texto dentro de la tarjeta */
+    line-height: 1.2; /* Espacio entre líneas del texto */
+    margin-bottom: 10px; /* Margen inferior para separar los párrafos */
+  }
+
 .card{
     background-color: rgba(47, 2, 61, 0);
 }
